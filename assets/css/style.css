@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 15px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Header */
@@ -109,11 +114,11 @@ html {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.banner img{
+.banner img {
     position: absolute;
-    right:0;
-    top:50%;
-    transform:translateY(-50%)
+    right: 0;
+    top: 58%;
+    transform: translateY(-50%)
 }
 
 .collection {
@@ -231,7 +236,7 @@ html {
     background: #C0936C;
 }
 
-.review{
+.review {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -249,11 +254,11 @@ html {
     text-align: center;
 }
 
-.review_img{
+.review_img {
     margin: 7% 0;
 }
 
-.footer_logo_text{
+.footer_logo_text {
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -267,13 +272,13 @@ html {
     text-align: center;
 }
 
-.footer_links{
+.footer_links {
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer_info{;
+.footer_info {;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -283,18 +288,18 @@ html {
     padding: 1%;
 }
 
-.footer_inst{
+.footer_inst {
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer_bottom{
+.footer_bottom {
     display: flex;
     padding: 1% 10%;
 }
 
-.footer_contacts{
+.footer_contacts {
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -304,7 +309,44 @@ html {
     padding: 0 5%;
 }
 
-.map{
+.map {
     height: 200px;
     width: 50%;
+}
+
+/*ABOUT PAGE*/
+.banner_about img {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    transform: translateY(-50%)
+}
+
+.banner_about {
+    background: #D6B292;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 10%;
+}
+
+.about_header {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.about_text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #000000;
+    padding: 0 25% 5% 25%;
 }
