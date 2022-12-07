@@ -286,6 +286,7 @@ a {
     line-height: 17px;
     color: #C0936C;
     padding: 1%;
+    margin: 0 10px 10px 10px;
 }
 
 .footer_inst {
@@ -349,4 +350,70 @@ a {
     text-align: justify;
     color: #000000;
     padding: 0 25% 5% 25%;
+}
+
+/*PRODUCTS*/
+.banner_products img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+
+}
+
+.banner_products {
+    background: #D6B292;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 10%;
+}
+
+.products_header {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding: 4% 0 2% 0;
+}
+
+.product_price {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.product_name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.product_prices {
+    background: rgba(192, 147, 108, 0.9);
+    z-index: 1;
+}
+
+.products_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15% 5%;
+}
+
+.product_block{
+    display: flex;
+    flex-direction: column;
 }
