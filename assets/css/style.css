@@ -64,6 +64,16 @@ a {
     color: #C0936C;
 }
 
+.header_logo_text:hover{
+    transition: 1s;
+    border: solid 1px #A36344FF;
+    color:#A36344FF
+}
+
+/*.header_logo_text:not(:hover){*/
+/*    transition: 0.5s;*/
+/*}*/
+
 .header_phone {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -270,6 +280,11 @@ a {
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
     padding: 1% 0;
     text-align: center;
+}
+
+.footer_logo_text:hover{
+    transition: 1s;
+    color:#A36344FF
 }
 
 .footer_links {
